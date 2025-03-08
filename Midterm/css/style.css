@@ -11,3 +11,51 @@ body.dark-mode {
   background-color: #343a40;
   color: #f8f9fa;
 }
+
+#rss-content .card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+#rss-content .card-body {
+  flex-grow: 1; 
+}
+
+#jumboHeader{
+  text-shadow: 2px 2px #3B3B3B;
+}
+
+#jumboSubHeader{
+  text-shadow: 1px 1px #3B3B3B;
+}
+
+#headshot{
+  max-width: 150px
+}
+
+.carousel-item img {
+  object-fit: cover;
+  height: 400px;
+  width: 100%;
+}
+
+.carousel-caption {
+  color: white; 
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.carousel {
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+.accordion{
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
